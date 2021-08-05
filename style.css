@@ -1,0 +1,83 @@
+h1{
+    color:rgb(245, 234, 248);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(61, 3, 109);
+}
+
+.container{
+    width:80%;
+    margin:80px auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.dispimg{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.list{
+display: flex;
+flex-direction:column;
+background-color: beige;
+margin: 10px 2px;
+align-items: center;
+border-radius: 5px;
+overflow: hidden;
+position: relative;
+width: 30%;
+
+}
+.listimg{
+width: 120%;
+}
+.playbtn{
+position:absolute;
+right:82%;
+cursor: pointer;
+top: 82%;
+font-size: 48px;
+}
+
+.list .playbtn{
+    position:absolute;
+    right:80%;
+    cursor: pointer;
+    top: 80%; 
+    padding: 2px;
+   font-size: 20px !important;
+}
+.vedioplayer{
+    width:75%;
+    right:82%;
+cursor: pointer;
+top: 92% !important;
+font-size: 48px;
+transform: translate(15%,-100%);
+display: none;
+   
+}
+
+.closebtn{
+    position: absolute;
+  bottom:90%;
+   right: 2%;
+    cursor: pointer;
+    color: rgb(234, 242, 243);
+}
+
+i{
+    color: rgb(234, 242, 243);
+}

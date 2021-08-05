@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1>Travel TV</h1>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <div class="dispimg">
+                    <img src="julian-yu-_WuPjE-MPHo-unsplash.jpg" width="100%" alt="">
+                    <i class="fa fa-play playbtn" aria-hidden="true" id="play1"  style="font-size:48px;"></i>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="list">
+                    <div class="listimg">
+
+                        <img src="harry-cunningham-EjW1VKoaHMs-unsplash.jpg" width="100%" alt="">
+                        <i class="fa fa-play playbtn" aria-hidden="true" id="1" style="font-size:48px;"></i>
+                    
+                    </div>
+       
+                </div>
+                <div class="list">
+                    <div class="listimg">
+
+                        <img src="fernando-jorge-2dtvA_QgF6Q-unsplash.jpg" width="100%" alt="">
+                        <i class="fa fa-play playbtn" aria-hidden="true" id="2"    style="font-size:48px;"></i>
+                  
+                    </div>
+             
+                </div>
+                <div class="list">
+                    <div class="listimg">
+
+                        <img src="stephen-leonardi--UWtb-3v6jQ-unsplash.jpg" width="100%" alt="">
+                        <i class="fa fa-play playbtn" aria-hidden="true" id="3"  ></i>
+                    
+                    </div>
+                  
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="vedioplayer" id="vedioPlayer">
+        <video  width="100%" controls autoplay id="myvedio">
+            <source src="Swans - 1287.mp4" type="video/mp4">
+
+        </video>
+    <i class="fa fa-close closebtn" aria-hidden="true" id="close"  style="font-size:48px;"></i>
+
+
+    </div>
+
+
+    <!-- <i class="fa fa-close " aria-hidden="true" style="font-size:48px;"></i>
+    <i class="fa fa-play" aria-hidden="true" style="font-size:48px;"></i>
+    <i class="fa fa-pause" style="font-size:48px;"></i>
+    <i class="fa fa-backward" style="font-size:48px;"></i>
+    <i class="fa fa-forward" style="font-size:48px;"></i>
+    <H1>hello welcome</H1>
+
+    <script>
+        let vedioplay=document.getElementById("vedioPlayer")
+        let vedio=document.getElementById("myvedio")
+
+
+        function stopvedio(){
+            vedio.pause()
+            vedioplay.style.display="none"
+        }
+
+        function playvedio(srcval){
+            vedio.src=srcval
+            
+            vedioplay.style.display="block"
+        }
+</script> -->
+
+    <script src="playing.js"></script>
+</body>
+
+</html>
